@@ -38,6 +38,17 @@
 
       Aenean a mi erat. Cras sodales rhoncus lacus in porttitor. Quisque eros ligula, ullamcorper a sollicitudin in, interdum in nisi. Integer eu sapien vel leo dictum luctus. Maecenas dapibus diam eu magna pretium feugiat. Sed in convallis neque. Quisque ut dapibus tellus. Pellentesque in sollicitudin lacus. Fusce at imperdiet libero. Phasellus ipsum lectus, elementum egestas auctor nec, volutpat nec quam. Mauris sed quam et massa ultricies consectetur. Fusce nec lacus a lacus condimentum dignissim a quis mauris. Nullam tempus eros eget tortor dignissim congue.
     </p>
+      <h4 class ="text-center mt-4 mb-4""> JOBS </h4>
+
+      <p>
+        {% for job in jobs %}
+          {% include 'jobitem.html' %}
+        {% endfor %}
+      
+      </p>
+    
+    <div></>
     </div>
+    
   </body>
 </html>
